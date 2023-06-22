@@ -107,3 +107,37 @@ a = 5
 //     console.log("number is less than 5");
 // }
 
+
+// chapter 8 Switch statment
+// it is like a if-else statment
+var number = prompt("Enter the number");
+number = parseInt(number)
+console.log("Entered number:", number);
+console.log("Type of  number:", typeof (number));
+switch (number) {
+    case 1:// if(number===1)
+        console.log("monday");
+        
+      
+        break;
+    case 2:// else if(number===2)
+        console.log("Tuesday");
+        break;
+    case 3:// else if(number===3)
+        console.log("Wednesday");
+        break;
+    case 4://else  if(number===4)
+        console.log("Thursday");
+        break;
+    case 5:// else if(number===5)
+        console.log("Friday");
+        break;
+    case 6://else  if(number===6)
+        console.log("Staruday");
+        break;
+    case 7://else  if(number===7)
+        console.log("Sunday");
+        break;
+    default: //else
+        console.log("enter the valid number")
+}
